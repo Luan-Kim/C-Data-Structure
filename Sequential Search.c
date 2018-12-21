@@ -1,5 +1,4 @@
 #include <stdio.h>
-#pragma warning (disable : 4996)
 
 int LSearch (int arr[], int len, int target)
 {
@@ -19,15 +18,15 @@ int main()
 	
 	idx = LSearch(arr, sizeof(arr) / sizeof(int), 4)
 	if(idx == -1)
-		printf("Å½»ö ½ÇÆĞ \n");
+		printf("íƒìƒ‰ ì‹¤íŒ¨ \n");
 	else
-		printf("Å¸°Ù ÀúÀå ÀÎµ¦½º : %d \n", idx);
+		printf("íƒ€ê²Ÿ ì €ì¥ ì¸ë±ìŠ¤ : %d \n", idx);
 		
 	idx = LSearch(arr, sizeof(arr) / sizeof(int), 7);
 	if(idx == -1)
-		printf("Å½»ö ½ÇÆĞ \n");
+		printf("íƒìƒ‰ ì‹¤íŒ¨ \n");
 	else
-		printf("Å¸°Ù ÀúÀå ÀÎµ¦½º : %d \n", idx);
+		printf("íƒ€ê²Ÿ ì €ì¥ ì¸ë±ìŠ¤ : %d \n", idx);
 	
 	return 0;
 }
